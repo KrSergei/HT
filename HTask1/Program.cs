@@ -88,6 +88,6 @@ public class Program
         };
 
         var GrandMothersOfSon = OldSon.GetGrandMothersName();
-        ShowMemberInfo.Print(GrandMothersOfSon);
+        ShowMemberInfo.PrintMemberInfo(GrandMothersOfSon);
     }
 }
