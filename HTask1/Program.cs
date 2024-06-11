@@ -2,7 +2,6 @@
  * Учесть членов семьи с детьми и без детей
  */
 using HTask1;
-using System.Runtime.CompilerServices;
 
 public class Program
 {
@@ -11,7 +10,7 @@ public class Program
         FamilyMember GrandFatherOne = new FamilyMember()
         {
             FirstName = "Ivan",
-            LastName = "Ivanov",
+            SecondName = "Ivanov",
             MiddleName = "Ivanovich",
             Birthday = DateTime.Parse("25.05.1970"),
             Gender = Gender.male
@@ -20,7 +19,7 @@ public class Program
         FamilyMember GrandMotherOne = new FamilyMember()
         {
             FirstName = "Maria",
-            LastName = "Ivanova",
+            SecondName = "Ivanova",
             MiddleName = "Ivanovna",
             Birthday = DateTime.Parse("15.07.1972"),
             Gender = Gender.female
@@ -29,7 +28,7 @@ public class Program
         FamilyMember GrandFatherSecond = new FamilyMember()
         {
             FirstName = "Yuriy",
-            LastName = "Vasiliev",
+            SecondName = "Vasiliev",
             MiddleName = "Stanislavovich",
             Birthday = DateTime.Parse("10.12.1969"),
             Gender = Gender.male
@@ -38,7 +37,7 @@ public class Program
         FamilyMember GrandMotherSecond = new FamilyMember()
         {
             FirstName = "Anna",
-            LastName = "Vasilieva",
+            SecondName = "Vasilieva",
             MiddleName = "Sergeevna",
             Birthday = DateTime.Parse("20.03.1971"),
             Gender = Gender.female
@@ -47,7 +46,7 @@ public class Program
         FamilyMember Father = new FamilyMember()
         {
             FirstName = "Dmitryi",
-            LastName = "Ivanov",
+            SecondName = "Ivanov",
             MiddleName = "Ivanovich",
             Birthday = DateTime.Parse("15.09.1985"),
             Gender = Gender.male,
@@ -58,7 +57,7 @@ public class Program
         FamilyMember Mother = new FamilyMember()
         {
             FirstName = "Yuliya",
-            LastName = "Ivanova",
+            SecondName = "Ivanova",
             MiddleName = "Yurivna",
             Birthday = DateTime.Parse("02.02.1987"),
             Gender = Gender.female,
@@ -69,7 +68,7 @@ public class Program
         FamilyMember OldSon = new FamilyMember()
         {
             FirstName = "Andrey",
-            LastName = "Ivanov",
+            SecondName = "Ivanov",
             MiddleName = "Dmitrievich",
             Birthday = DateTime.Parse("04.03.2010"),
             Gender = Gender.male,
@@ -80,12 +79,15 @@ public class Program
         FamilyMember OldDaugther = new FamilyMember()
         {
             FirstName = "Svetlana",
-            LastName = "Ivanova",
+            SecondName = "Ivanova",
             MiddleName = "Dmitrievna",
             Birthday = DateTime.Parse("09.08.2012"),
             Gender = Gender.female,
             Father = Father,
             Mother = Mother
         };
+
+        var GrandMothersOfSon = OldSon.GetGrandMothersName();
+        ShowMemberInfo.Print(GrandMothersOfSon);
     }
 }

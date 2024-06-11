@@ -5,17 +5,22 @@
         male,
         female
     }
+
     public class FamilyMember    
     {        
         public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
+        public string SecondName { get; set; } = string.Empty;
         public string MiddleName { get; set; } = string.Empty;
         public DateTime Birthday { get; set; }       
         public Gender Gender { get; set; }
         public FamilyMember Mother { get; set; }
         public FamilyMember Father { get; set; }
+        public FamilyMember Husband { get; set; }
+        public FamilyMember Wife { get; set; }
+        public FamilyMember Brother { get; set; }
+        public FamilyMember Sister { get; set; }
 
-        private List<FamilyMember> Children = new List<FamilyMember>();
+        public List<FamilyMember> Children = new List<FamilyMember>();
 
         public FamilyMember[] GetGrandMothersName()
         {

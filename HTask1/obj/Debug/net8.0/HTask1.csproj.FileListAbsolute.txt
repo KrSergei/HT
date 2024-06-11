@@ -1,0 +1,15 @@
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\bin\Debug\net8.0\HTask1.exe
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\bin\Debug\net8.0\HTask1.deps.json
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\bin\Debug\net8.0\HTask1.runtimeconfig.json
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\bin\Debug\net8.0\HTask1.dll
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\bin\Debug\net8.0\HTask1.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\HTask1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\HTask1.AssemblyInfoInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\HTask1.AssemblyInfo.cs
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\HTask1.csproj.CoreCompileInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\HTask1.sourcelink.json
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\HTask1.dll
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\refint\HTask1.dll
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\HTask1.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\HTask1.genruntimeconfig.cache
+C:\Users\MSi\source\repos\HomeTask4-1\HTask1\obj\Debug\net8.0\ref\HTask1.dll
