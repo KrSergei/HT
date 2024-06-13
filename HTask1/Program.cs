@@ -7,14 +7,16 @@ public class Program
 {
     public static void Main(string[] args)
     {
+    #region Заполнение дданных членов семьи
         FamilyMember GrandFatherOne = new FamilyMember()
         {
             FirstName = "Ivan",
             SecondName = "Ivanov",
             MiddleName = "Ivanovich",
             Birthday = DateTime.Parse("25.05.1970"),
-            Gender = Gender.male
+            Gender = Gender.male,
         };
+        FamilyMemberInfoHandler.AddFamilyMember(GrandFatherOne);
 
         FamilyMember GrandMotherOne = new FamilyMember()
         {
@@ -24,6 +26,7 @@ public class Program
             Birthday = DateTime.Parse("15.07.1972"),
             Gender = Gender.female
         };
+        FamilyMemberInfoHandler.AddFamilyMember(GrandMotherOne);
 
         FamilyMember GrandFatherSecond = new FamilyMember()
         {
@@ -33,6 +36,7 @@ public class Program
             Birthday = DateTime.Parse("10.12.1969"),
             Gender = Gender.male
         };
+        FamilyMemberInfoHandler.AddFamilyMember(GrandFatherSecond);
 
         FamilyMember GrandMotherSecond = new FamilyMember()
         {
@@ -42,6 +46,7 @@ public class Program
             Birthday = DateTime.Parse("20.03.1971"),
             Gender = Gender.female
         };
+        FamilyMemberInfoHandler.AddFamilyMember(GrandMotherSecond);
 
         FamilyMember Father = new FamilyMember()
         {
@@ -53,6 +58,7 @@ public class Program
             Father = GrandFatherOne,
             Mother = GrandMotherOne
         };
+        FamilyMemberInfoHandler.AddFamilyMember(Father);
 
         FamilyMember Mother = new FamilyMember()
         {
@@ -64,6 +70,7 @@ public class Program
             Father = GrandFatherSecond,
             Mother = GrandMotherSecond
         };
+        FamilyMemberInfoHandler.AddFamilyMember(Mother);
 
         FamilyMember OldSon = new FamilyMember()
         {
@@ -75,6 +82,7 @@ public class Program
             Father = Father,
             Mother = Mother
         };
+        FamilyMemberInfoHandler.AddFamilyMember(OldSon);
 
         FamilyMember OldDaugther = new FamilyMember()
         {
@@ -86,8 +94,40 @@ public class Program
             Father = Father,
             Mother = Mother
         };
+        FamilyMemberInfoHandler.AddFamilyMember(OldDaugther);
+        #endregion
 
-        var GrandMothersOfSon = OldSon.GetGrandMothersName();
-        ShowMemberInfo.PrintMemberInfo(GrandMothersOfSon);
+    #region Обновление данных о наличии мужа и жены
+        GrandFatherOne.Wife = GrandMotherOne;
+        GrandMotherOne.Husband = GrandMotherOne;
+
+        GrandFatherSecond.Wife = GrandMotherSecond;
+        GrandMotherSecond.Husband = GrandFatherSecond;
+
+        Father.Wife = Mother;
+        Mother.Husband = Father;
+        #endregion
+
+        Console.WriteLine("GrandFathers");
+        var GrandFathersOfSon = FamilyMemberInfoHandler.GetGrandFathersName(OldSon);
+        ShowMemberInfo.PrintMemberInfo(GrandFathersOfSon);
+
+        Console.WriteLine("GrandMothers");
+        var GrandMothersOfDauther = FamilyMemberInfoHandler.GetGrandMothersName(OldDaugther);
+        ShowMemberInfo.PrintMemberInfo(GrandMothersOfDauther);
+
+        Console.WriteLine("Brothers and Sisters");
+        var sistersAndbrothers = FamilyMemberInfoHandler.GetNameBrohersAndSisters(OldSon);
+        ShowMemberInfo.PrintMemberInfo(sistersAndbrothers);
+
+        Console.WriteLine("Spouse");
+        var spouse = FamilyMemberInfoHandler.GetSpouse(Father);        
+        ShowMemberInfo.PrintMemberInfo(spouse);
+        Console.WriteLine("Spouse");
+        spouse = FamilyMemberInfoHandler.GetSpouse(GrandFatherOne);
+        ShowMemberInfo.PrintMemberInfo(spouse);
+        Console.WriteLine("Spouse");
+        spouse = FamilyMemberInfoHandler.GetSpouse(GrandMotherSecond);
+        ShowMemberInfo.PrintMemberInfo(spouse);
     }
 }
