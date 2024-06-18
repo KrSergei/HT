@@ -3,23 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87619DE1-B6F8-45C0-9493-4E5F390533C5}|..\\Htask2\\Htask2\\Htask2.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask2\\htask2\\bitgetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87619DE1-B6F8-45C0-9493-4E5F390533C5}|..\\Htask2\\Htask2\\Htask2.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask2\\htask2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{850761E7-EF4A-4DDC-8EFF-600221C9301A}|HTask1.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{850761E7-EF4A-4DDC-8EFF-600221C9301A}|HTask1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87619DE1-B6F8-45C0-9493-4E5F390533C5}|..\\Htask2\\Htask2\\Htask2.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask2\\htask2\\iconvertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{850761E7-EF4A-4DDC-8EFF-600221C9301A}|HTask1.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask1\\familymemberinfohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{850761E7-EF4A-4DDC-8EFF-600221C9301A}|HTask1.csproj|solutionrelative:familymemberinfohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{850761E7-EF4A-4DDC-8EFF-600221C9301A}|HTask1.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask1\\showmemberinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{850761E7-EF4A-4DDC-8EFF-600221C9301A}|HTask1.csproj|solutionrelative:showmemberinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{850761E7-EF4A-4DDC-8EFF-600221C9301A}|HTask1.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask1\\familymember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{850761E7-EF4A-4DDC-8EFF-600221C9301A}|HTask1.csproj|solutionrelative:familymember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87619DE1-B6F8-45C0-9493-4E5F390533C5}|..\\Htask2\\Htask2\\Htask2.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask2\\htask2\\iindexable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,68 +22,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Htask2\\Htask2\\Program.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\Program.cs",
-              "RelativeToolTip": "..\\Htask2\\Htask2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "IIndexable.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\IIndexable.cs",
+              "RelativeDocumentMoniker": "..\\Htask2\\Htask2\\IIndexable.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\IIndexable.cs",
+              "RelativeToolTip": "..\\Htask2\\Htask2\\IIndexable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:15:16.061Z",
+              "WhenOpened": "2024-06-18T11:01:24.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FamilyMemberInfoHandler.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\FamilyMemberInfoHandler.cs",
-              "RelativeDocumentMoniker": "FamilyMemberInfoHandler.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\FamilyMemberInfoHandler.cs",
-              "RelativeToolTip": "FamilyMemberInfoHandler.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwEAAAAARAAAA",
+              "Title": "IConvertable.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\IConvertable.cs",
+              "RelativeDocumentMoniker": "..\\Htask2\\Htask2\\IConvertable.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\IConvertable.cs",
+              "RelativeToolTip": "..\\Htask2\\Htask2\\IConvertable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T07:22:29.646Z"
+              "WhenOpened": "2024-06-18T17:54:04.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShowMemberInfo.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\ShowMemberInfo.cs",
-              "RelativeDocumentMoniker": "ShowMemberInfo.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\ShowMemberInfo.cs",
-              "RelativeToolTip": "ShowMemberInfo.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAA6wBMAAAAbAAAA",
+              "DocumentIndex": 0,
+              "Title": "BitGetable.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\BitGetable.cs",
+              "RelativeDocumentMoniker": "..\\Htask2\\Htask2\\BitGetable.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\BitGetable.cs",
+              "RelativeToolTip": "..\\Htask2\\Htask2\\BitGetable.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwDIAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T19:28:54.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FamilyMember.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\FamilyMember.cs",
-              "RelativeDocumentMoniker": "FamilyMember.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\FamilyMember.cs",
-              "RelativeToolTip": "FamilyMember.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAhwBQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T17:54:19.089Z"
+              "WhenOpened": "2024-06-18T11:01:25.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH8AAAAvAAAA",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Htask2\\Htask2\\Program.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Htask2\\Htask2\\Program.cs",
+              "RelativeToolTip": "..\\Htask2\\Htask2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T16:46:00.816Z",
+              "WhenOpened": "2024-06-15T12:15:16.061Z",
               "EditorCaption": ""
             }
           ]

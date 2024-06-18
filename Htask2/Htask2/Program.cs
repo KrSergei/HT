@@ -1,50 +1,54 @@
-﻿using System.Net.Http.Metrics;
+﻿//Реализуйте операторы неявного приведения из long,int,byt в Bits.
 
-class Programm
+
+namespace Htask2;
+
+public class Programm
 {
-    class Metric : IComparable<Metric>
+    public static void Main()
     {
-        public int Month;
-        public int Temperature;
-        public int Days;
+        //Bits bits = new Bits(4);
+        //Console.WriteLine(bits.GetBitByIndex(2));
+        //bits.SetBitByIndex(0, true);
+        //Console.WriteLine(bits.GetBitByIndex(0));
+        //bits[1] = true;
+        //Console.WriteLine(bits.Value);
+        //Console.WriteLine(bits);
+        //byte val = (byte)bits;
 
-        public int CompareTo(Metric metric)
-        {  
-            int res = this.Month.CompareTo(metric.Month);
-            if (res != 0)
-            {
-                return res;
-            }
-            else
-            {
-                return this.Temperature.CompareTo(metric.Temperature);
-            }
-        }
+        //Devices devices = new();
+        //Bits bits2 = new(2);
+        //Console.WriteLine(devices);
+        //devices.TurnOnOff(bits2);
+        //Console.WriteLine(devices);
+        #region Task4
+        //Collection<string> collection = new Collection<string>(10);
 
-        public override string ToString()
-        {
-            return $"{Month}, {Temperature}, {Days}";
-        }
+        //collection[0] = "New string";
+        //collection[1] = "New string1";
+        //collection[2] = "New string2";
+
+        //Console.WriteLine(collection[0]);
+        //Console.WriteLine(collection[1]);
+        //Console.WriteLine(collection[2]);
+        #endregion
+        #region Task5
+        //Matrix<int> array = new Matrix<int>(2, 2);
+        //array[0, 0] = 0;
+        //array[0, 1] = 1;
+        //array[1, 0] = 2;
+        //array[1, 1] = 3;
+        //array.PrintMatrix();
+
+        #endregion
+        #region HOMETASK
+        Bits byteBit = new Bits((byte)10);
+        Bits intBit = new Bits((int)1000);
+        Bits longBit = new Bits((long)123345);
+        Console.WriteLine(byteBit);
+        Console.WriteLine(intBit);
+        Console.WriteLine(longBit);
+        #endregion
+
     }
-
-    static void Main()
-    {
-        Metric[] temperatures = new Metric[]
-        {
-            new Metric { Month = 1, Temperature = -1, Days = 10 },
-            new Metric { Month = 0, Temperature = 22, Days = 7 },
-            new Metric { Month = 1, Temperature = -10, Days = 5 },
-            new Metric { Month = 0, Temperature = 10, Days = 15 },
-            new Metric { Month = 2, Temperature = -2, Days = 4 },
-            new Metric { Month = 1, Temperature = -30, Days = 4 },
-            new Metric { Month = 2, Temperature = -2, Days = 3 },
-        };
-
-        Array.Sort(temperatures);
-        foreach(var t in temperatures)
-        {
-            Console.WriteLine(t + " ");
-        }
-
-    } 
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace HTask1
+﻿namespace HTask1
 {
     internal class FamilyMemberInfoHandler
     {
@@ -51,7 +49,7 @@ namespace HTask1
         }
 
         /// <summary>
-        /// Поиск имен для сетер и братьев по входящему брату или сестре
+        /// Поиск имен для сеcтер и братьев по входящему брату или сестре
         /// </summary>
         /// <param name="member"></param>
         /// <returns></returns>

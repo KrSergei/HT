@@ -7,7 +7,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-    #region Заполнение дданных членов семьи
+    #region Заполнение данных членов семьи
         FamilyMember GrandFatherOne = new FamilyMember()
         {
             FirstName = "Ivan",
