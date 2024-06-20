@@ -1,0 +1,15 @@
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\bin\Debug\net8.0\Htask2.exe
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\bin\Debug\net8.0\Htask2.deps.json
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\bin\Debug\net8.0\Htask2.runtimeconfig.json
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\bin\Debug\net8.0\Htask2.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\bin\Debug\net8.0\Htask2.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\Htask2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\Htask2.AssemblyInfoInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\Htask2.AssemblyInfo.cs
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\Htask2.csproj.CoreCompileInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\Htask2.sourcelink.json
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\Htask2.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\refint\Htask2.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\Htask2.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\Htask2.genruntimeconfig.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Htask2\Htask2\obj\Debug\net8.0\ref\Htask2.dll
