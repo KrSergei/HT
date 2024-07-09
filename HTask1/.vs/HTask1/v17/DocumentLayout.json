@@ -3,13 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4DC4215-9D27-4157-8E10-B6AC678D7C1F}|..\\HTask3\\HTask3.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7AD9627-0C43-4BC9-862C-27EF4783F027}|..\\HTask3_2\\Htask3_2\\Htask3_2.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask3_2\\htask3_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4DC4215-9D27-4157-8E10-B6AC678D7C1F}|..\\HTask3\\HTask3.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask3\\customenumerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4DC4215-9D27-4157-8E10-B6AC678D7C1F}|..\\HTask3\\HTask3.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask3\\customenumerable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7AD9627-0C43-4BC9-862C-27EF4783F027}|..\\HTask3_2\\Htask3_2\\Htask3_2.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask3_2\\htask3_2\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,43 +16,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 277,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomEnumerable.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\CustomEnumerable.cs",
-              "RelativeDocumentMoniker": "..\\HTask3\\CustomEnumerable.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\CustomEnumerable.cs",
-              "RelativeToolTip": "..\\HTask3\\CustomEnumerable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:42:21.526Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomEnumerator.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\CustomEnumerator.cs",
-              "RelativeDocumentMoniker": "..\\HTask3\\CustomEnumerator.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\CustomEnumerator.cs",
-              "RelativeToolTip": "..\\HTask3\\CustomEnumerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3_2\\Htask3_2\\User.cs",
+              "RelativeDocumentMoniker": "..\\HTask3_2\\Htask3_2\\User.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3_2\\Htask3_2\\User.cs",
+              "RelativeToolTip": "..\\HTask3_2\\Htask3_2\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:37:21.487Z"
+              "WhenOpened": "2024-07-04T16:29:21.003Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\Program.cs",
-              "RelativeDocumentMoniker": "..\\HTask3\\Program.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\Program.cs",
-              "RelativeToolTip": "..\\HTask3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAlAAAA",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3_2\\Htask3_2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\HTask3_2\\Htask3_2\\Program.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3_2\\Htask3_2\\Program.cs",
+              "RelativeToolTip": "..\\HTask3_2\\Htask3_2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:26:50.487Z",
+              "WhenOpened": "2024-07-02T17:04:58.931Z",
               "EditorCaption": ""
             }
           ]
