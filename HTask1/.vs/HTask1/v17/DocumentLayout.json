@@ -3,13 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4DC4215-9D27-4157-8E10-B6AC678D7C1F}|..\\HTask3\\HTask3.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9040E5BC-180A-48FE-96E1-573950E979E9}|..\\ChatApp\\ChatApp\\ChatApp.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\chatapp\\chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4DC4215-9D27-4157-8E10-B6AC678D7C1F}|..\\HTask3\\HTask3.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask3\\customenumerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9040E5BC-180A-48FE-96E1-573950E979E9}|..\\ChatApp\\ChatApp\\ChatApp.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\chatapp\\chatapp\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4DC4215-9D27-4157-8E10-B6AC678D7C1F}|..\\HTask3\\HTask3.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask3\\customenumerable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9040E5BC-180A-48FE-96E1-573950E979E9}|..\\ChatApp\\ChatApp\\ChatApp.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\chatapp\\chatapp\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,38 +24,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomEnumerable.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\CustomEnumerable.cs",
-              "RelativeDocumentMoniker": "..\\HTask3\\CustomEnumerable.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\CustomEnumerable.cs",
-              "RelativeToolTip": "..\\HTask3\\CustomEnumerable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\ChatApp\\ChatApp\\Chat.cs",
+              "RelativeDocumentMoniker": "..\\ChatApp\\ChatApp\\Chat.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\ChatApp\\ChatApp\\Chat.cs",
+              "RelativeToolTip": "..\\ChatApp\\ChatApp\\Chat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:42:21.526Z"
+              "WhenOpened": "2024-07-10T19:00:02.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomEnumerator.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\CustomEnumerator.cs",
-              "RelativeDocumentMoniker": "..\\HTask3\\CustomEnumerator.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\CustomEnumerator.cs",
-              "RelativeToolTip": "..\\HTask3\\CustomEnumerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\ChatApp\\ChatApp\\Message.cs",
+              "RelativeDocumentMoniker": "..\\ChatApp\\ChatApp\\Message.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\ChatApp\\ChatApp\\Message.cs",
+              "RelativeToolTip": "..\\ChatApp\\ChatApp\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:37:21.487Z"
+              "WhenOpened": "2024-07-10T18:53:27.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\Program.cs",
-              "RelativeDocumentMoniker": "..\\HTask3\\Program.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask3\\Program.cs",
-              "RelativeToolTip": "..\\HTask3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAlAAAA",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\ChatApp\\ChatApp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ChatApp\\ChatApp\\Program.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\ChatApp\\ChatApp\\Program.cs",
+              "RelativeToolTip": "..\\ChatApp\\ChatApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:26:50.487Z",
+              "WhenOpened": "2024-07-10T18:52:57.214Z",
               "EditorCaption": ""
             }
           ]

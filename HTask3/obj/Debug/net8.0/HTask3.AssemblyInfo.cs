@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HTask3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+482937717d570963ab4d37419a3ea9de3536c21c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa045219162b5fe9f440d404ac9bbd6ea478c58d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HTask3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HTask3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
