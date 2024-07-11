@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F17FC895-67EC-422F-AD05-621F644D89CF}|..\\Thread\\Thread\\Thread.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\thread\\thread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69D711DE-7AF5-44DC-AAB0-CD6DA0976C17}|..\\Threads\\Threads\\Threads.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\threads\\threads\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +19,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Thread\\Thread\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Thread\\Thread\\Program.cs",
-              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Thread\\Thread\\Program.cs",
-              "RelativeToolTip": "..\\Thread\\Thread\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Threads\\Threads\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Threads\\Threads\\Program.cs",
+              "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Threads\\Threads\\Program.cs",
+              "RelativeToolTip": "..\\Threads\\Threads\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T18:18:45.313Z",
+              "WhenOpened": "2024-07-11T19:14:41.149Z",
               "EditorCaption": ""
             }
           ]
