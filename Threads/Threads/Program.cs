@@ -12,22 +12,6 @@ namespace Threads
 
         //static int var1;
         //static int var2;
-
-        //public static void Main(string[] args)
-        //{
-        //    Thread thread1 = new Thread(Summ1);
-        //    thread1.Start();
-        //    thread1.Join();
-        //    Console.WriteLine(var1);
-
-        //    Thread thread2 = new Thread(Summ2);
-        //    thread2.Start();
-        //    thread2.Join();
-        //    Console.WriteLine(var2);
-        //    var summ = var1 + var2;
-        //    Console.WriteLine($"Summ {var1} + {var2} = " + summ);
-        //}
-
         //public static void Summ1()
         //{
         //    var1 = 0;
@@ -40,11 +24,24 @@ namespace Threads
         //    var2 = array2.Sum();
         //}
         #endregion
-        #region Task2
-
         public static void Main(string[] args)
         {
-            string urlResources1 = "yandex.ru";
+            #region Task1
+            //Thread thread1 = new Thread(Summ1);
+            //thread1.Start();
+            //thread1.Join();
+            //Console.WriteLine(var1);
+
+            //Thread thread2 = new Thread(Summ2);
+            //thread2.Start();
+            //thread2.Join();
+            //Console.WriteLine(var2);
+            //var summ = var1 + var2;
+            //Console.WriteLine($"Summ {var1} + {var2} = " + summ);
+            #endregion
+
+            #region Task2
+            string urlResources1 = "mail.ru";
             var IpAdresses = Dns.GetHostAddresses(urlResources1, AddressFamily.InterNetwork);
             foreach (var address in IpAdresses)
             {
@@ -59,7 +56,21 @@ namespace Threads
                     PingReply pingReply = ping.Send(adress);
                     pings.Add(adress, pingReply.RoundtripTime);
                 });
+                threads.Add(tr);
+                tr.Start();                
             }
+            foreach (var item in threads)
+            {
+                item.Join();
+            }
+            long minPing = long.MaxValue;
+            foreach (var ping in pings)
+            {
+                if(ping.Value < minPing) 
+                    minPing = ping.Value;
+                Console.WriteLine($"IP : {ping.Key}, ping : { ping.Value}");
+            }
+            Console.WriteLine($"Min ping = {minPing} ms");
         }
         #endregion
     }
