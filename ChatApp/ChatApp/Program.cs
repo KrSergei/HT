@@ -5,18 +5,27 @@ namespace ChatApp
     {
         public static void Main(string[] args)
         {
-            if (args.Length == 0)
+            while (true) 
             {
-                Server.AcceptMag();
-            }
-            else
-            {
-                for (int i = 0; i < 10; i++)
+                if (args.Length == 0)
+                {
+                    Server.AcceptMag();
+                }
+                else
                 {
                     new Thread(() =>
                     {
-                        Client.SendMsg($"{args[0]} {i}");
+                        Client.SendMsg($"{args[0]}");
                     }).Start();
+
+                    
+                    //for (int i = 0; i < 10; i++)
+                    //{
+                    //    new Thread(() =>
+                    //    {
+                    //        Client.SendMsg($"{args[0]} {i}");
+                    //    }).Start();
+                    //}
                 }
             }
         }

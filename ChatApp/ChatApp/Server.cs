@@ -14,16 +14,25 @@ namespace ChatApp
             while (true) {
                 byte[] buffer = udpClient.Receive(ref ep);            
                 string str = Encoding.UTF8.GetString(buffer);
+                string exitWord = "";
                 Thread thread = new Thread(() =>
                 {
                     Message message = Message.FromJSON(str);
-                    Console.WriteLine(message.ToString());
-
+                    exitWord = message.TextMessage;
+                    //выход из приложения по поступлении команды Exit пользователя и после нажатия любой клавиши
+                    if (message.TextMessage.Equals("Exit"))
+                    {
+                        Console.WriteLine("The last user left the chat.\nPress any key to turn off");                        
+                        ConsoleKeyInfo ch;
+                        ch = Console.ReadKey();
+                        if(ch.Key != null) Environment.Exit(0);
+                    }
+                    else
+                        Console.WriteLine(message.ToString());
                     Message responseMsg = new Message("Server", "Message getted");
                     string js = responseMsg.ToJSON();
                     byte[] responseData = Encoding.UTF8.GetBytes(js);
                     udpClient.Send(responseData, ep);
-
                 });
                 thread.Start();
             }
