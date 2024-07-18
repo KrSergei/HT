@@ -1,0 +1,15 @@
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\bin\Debug\net8.0\Threads.exe
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\bin\Debug\net8.0\Threads.deps.json
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\bin\Debug\net8.0\Threads.runtimeconfig.json
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\bin\Debug\net8.0\Threads.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\bin\Debug\net8.0\Threads.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\Threads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\Threads.AssemblyInfoInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\Threads.AssemblyInfo.cs
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\Threads.csproj.CoreCompileInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\Threads.sourcelink.json
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\Threads.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\refint\Threads.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\Threads.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\Threads.genruntimeconfig.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Threads\Threads\obj\Debug\net8.0\ref\Threads.dll
