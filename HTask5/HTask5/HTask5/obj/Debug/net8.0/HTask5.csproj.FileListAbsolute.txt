@@ -1,0 +1,15 @@
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\bin\Debug\net8.0\HTask5.exe
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\bin\Debug\net8.0\HTask5.deps.json
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\bin\Debug\net8.0\HTask5.runtimeconfig.json
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\bin\Debug\net8.0\HTask5.dll
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\bin\Debug\net8.0\HTask5.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\HTask5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\HTask5.AssemblyInfoInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\HTask5.AssemblyInfo.cs
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\HTask5.csproj.CoreCompileInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\HTask5.sourcelink.json
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\HTask5.dll
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\refint\HTask5.dll
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\HTask5.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\HTask5.genruntimeconfig.cache
+C:\Users\MSi\source\repos\HomeTask4-1\HTask5\HTask5\HTask5\obj\Debug\net8.0\ref\HTask5.dll
