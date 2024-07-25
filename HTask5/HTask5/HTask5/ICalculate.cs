@@ -2,12 +2,13 @@
 {
     internal interface ICalculate
     {
-        event EventHandler<EventArgs> GetResult; 
+        event EventHandler<EventArgs> PrintResult;
+
         void Sum(int value);
         void Substract(int value);
         void Multiply(int value);
         void Divide(int value);
         void CancelLast();
-        void Calculating(int value, char mathAction);
+        void ChoiceAction(int value, char mathAction);
     }
 }

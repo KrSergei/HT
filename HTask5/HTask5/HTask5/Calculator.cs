@@ -3,13 +3,13 @@ namespace HTask5
 {
     internal class Calculator : ICalculate
     {
-        public event EventHandler<EventArgs> GetResult;
+        public event EventHandler<EventArgs> PrintResult;
 
         private Stack<int> _result = new Stack<int>();
 
         public int temp = 0;
 
-        public void Calculating(int value, char whatDoing)
+        public void ChoiceAction(int value, char whatDoing)
         {
             switch (whatDoing)
             {
@@ -61,14 +61,17 @@ namespace HTask5
 
         private void RaiseEvent()
         {
-            GetResult?.Invoke(this, EventArgs.Empty);
+            PrintResult?.Invoke(this, EventArgs.Empty);
         }
 
         public void CancelLast()
         {
             if (_result.Count > 0) { 
                 temp = _result.Pop();
-                RaiseEvent();
+            }
+            else
+            {
+                temp = 0;
             }
         }
 

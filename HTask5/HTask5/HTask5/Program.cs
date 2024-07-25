@@ -1,7 +1,5 @@
 ﻿using HTask5;
-using System.Collections.Generic;
-
-
+using System.Text;
 class Programm
 {
     #region
@@ -19,71 +17,100 @@ class Programm
     //}
     #endregion
 
-    private static void Calculator_GetResult(object sendler, EventArgs eventArgs)
+    private static void PrintResult(object sendler, EventArgs eventArgs)
     {
         Console.WriteLine($"\nResult = {((Calculator)sendler).temp}");
     }
 
+    private static string ReadLineOrEsc(ICalculate calculate)
+    {  
+        ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
+        StringBuilder sb = new StringBuilder();
+        int index = 0;
+        Console.WriteLine("Enter value :");
+        while (keyInfo.Key != ConsoleKey.Enter)
+        {
+            keyInfo = Console.ReadKey(true);
+
+            if (keyInfo.Key == ConsoleKey.Escape)
+            {
+                return null;
+            }
+            //Удаление символа из строки
+            if (keyInfo.Key == ConsoleKey.Backspace)
+            {
+                if (index > 0)
+                {
+                    Console.CursorLeft = index - 1;
+
+                    sb.Remove(index - 1, 1);
+
+                    Console.Write(" \b");
+
+                    index--;
+                }
+            }
+            //Возврат предыдущего значения 
+            if(keyInfo.Key == ConsoleKey.Delete)
+            {
+                ((Calculator)calculate).CancelLast();
+                string lastValue = ((Calculator)calculate).temp.ToString();
+                index = lastValue.Length;
+                sb.Append(lastValue);
+                Console.Write(sb);
+            } 
+
+            if (keyInfo.KeyChar > 31 && keyInfo.KeyChar < 127)
+            {
+                index++;
+                Console.Write(keyInfo.KeyChar);
+                sb.Append(keyInfo.KeyChar);
+            }
+        }
+        return sb.ToString();
+    }
+
+    public static char ChoiceMathAction()
+    {  
+        ConsoleKeyInfo action = new ConsoleKeyInfo();
+        Console.WriteLine("\nEnter the mathematical action (+, - , * or /) on the numeric keypad");
+        action = Console.ReadKey(true);
+        if (action.Key == ConsoleKey.Escape || action.Key == ConsoleKey.Spacebar || action.Key == ConsoleKey.None) return ' ';
+        switch (action.Key)
+        {
+            case ConsoleKey.Add:
+                return '+';
+            case ConsoleKey.Subtract:
+                return '-';;
+            case ConsoleKey.Multiply:
+                return '*';  
+            case ConsoleKey.Divide:
+                return '/';
+            default: return ' ';
+        }
+
+    }
     static void Main(string[] args)
     {
         ICalculate calculate = new Calculator();
-        calculate.GetResult += Calculator_GetResult;
-
+        calculate.PrintResult += PrintResult;
 
         bool isExit = false;
-        string? strValue = "";
-        
+        string? value = "";
 
         while (!isExit)
         {
-            Console.WriteLine("Enter value");
-            ConsoleKeyInfo ch = Console.ReadKey();
-
-            if (ch.Key == ConsoleKey.Escape)
-            {
-                isExit = true;
-            }
+            value = ReadLineOrEsc(calculate); 
+            if (string.IsNullOrWhiteSpace(value)) isExit = true;
             else
-            {
-                if (char.IsDigit(ch.KeyChar)) strValue = ch.KeyChar.ToString();
-                strValue += Console.ReadLine();
+            {    
+                int num = Convert.ToInt32(value);            
+                char action = ChoiceMathAction();
+                if(action.Equals(' ')) isExit = true;
+                else calculate.ChoiceAction(num, action);               
             }
-
-            if (string.IsNullOrWhiteSpace(strValue))
-            {
-                isExit = true;
-            }
-            else
-            {
-                int value = Convert.ToInt32(strValue);
-                ConsoleKeyInfo action;
-                Console.WriteLine("\nEnter the mathematical action (+, - , * or /)");
-                action = Console.ReadKey();
-                if (action.Key == ConsoleKey.Escape || action.Key == ConsoleKey.Spacebar || action.KeyChar == null) isExit = true;
-                switch (action.Key)
-                {
-                    case ConsoleKey.Add:
-                        calculate.Sum(value);
-                        break;
-                    case ConsoleKey.Subtract:
-                        calculate.Substract(value);
-                        break;
-                    case ConsoleKey.Multiply:
-                        calculate.Multiply(value);
-                        break;
-                    case ConsoleKey.Divide:
-                        calculate.Divide(value);
-                        break;
-                    default: break;
-                }
-            }
-        }
+        }        
         Environment.Exit(0);
-        //calculate.Sum(11);
-        //calculate.Divide(24);
-        //calculate.Substract(7);
-        //calculate.Multiply(12);
-        //calculate.CancelLast();
 
         #region
         //List<int> numbers = new List<int>() { 1,2,3,4,5,6,7,8,9,10};
