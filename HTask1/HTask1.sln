@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTask3", "..\HTask3\HTask3.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApp", "..\ChatApp\ChatApp\ChatApp.csproj", "{9040E5BC-180A-48FE-96E1-573950E979E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "..\Threads\Threads\Threads.csproj", "{69D711DE-7AF5-44DC-AAB0-CD6DA0976C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads", "..\Threads\Threads\Threads.csproj", "{69D711DE-7AF5-44DC-AAB0-CD6DA0976C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ptrn", "..\Ptrn\Ptrn.csproj", "{6394CD01-2AA8-4C73-8B89-71B3E27971F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{69D711DE-7AF5-44DC-AAB0-CD6DA0976C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69D711DE-7AF5-44DC-AAB0-CD6DA0976C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69D711DE-7AF5-44DC-AAB0-CD6DA0976C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6394CD01-2AA8-4C73-8B89-71B3E27971F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6394CD01-2AA8-4C73-8B89-71B3E27971F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6394CD01-2AA8-4C73-8B89-71B3E27971F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6394CD01-2AA8-4C73-8B89-71B3E27971F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
