@@ -12,7 +12,11 @@
                 }
                 else
                 {
-                    await Client.SendMsg($"{args[0]}");
+                    ///working variant
+                    await Client.SendMsg(args[0]);
+
+                    //await Client.ClientSendlerAsync(args[0]);
+                    //await Client.ClientListenerAsync();
                 }
             }
         }

@@ -14,7 +14,7 @@ namespace Ptrn
             UdpClient udpClient = new UdpClient(16879);
             CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
             CancellationToken token = cancellationTokenSource.Token;
-
+            bool _isExit = false;
             Console.WriteLine("Server is waiting a messages");
 
             while (true)
@@ -35,12 +35,13 @@ namespace Ptrn
                         exitWord.Equals("Exit");
                     });
 
-                    Message responseMsg = new Message();
+                    Message? responseMsg = new Message();
 
                     if (message.ToName.Equals("Server"))
                     {
-                        if (message.TextMessage.ToLower().Equals("register"))
-                        {
+                        Console.WriteLine("Call server");
+                        if (message.TextMessage.ToLower().Equals("Reg"))
+                        {   
                             if (users.TryAdd(message.FromName, ep))
                             {
                                 responseMsg = new Message("Server", $"User added: {message.FromName}");
@@ -50,6 +51,15 @@ namespace Ptrn
                         {  
                             users.Remove(message.FromName);
                             responseMsg = new Message("Server", $"User  {message.FromName} delete");
+                        }
+                        else if (message.TextMessage.ToLower().Equals("list"))
+                        {
+                            StringBuilder sb = new StringBuilder();
+                            foreach (var user in users)
+                            {
+                                sb.Append(user.Key + "\n");
+                            }
+                            responseMsg = new Message("Server", $"User's list:\n{sb.ToString()}");
                         }
                     }
                     else if (message.ToName.ToLower().Equals("all"))
@@ -73,25 +83,31 @@ namespace Ptrn
                     else
                     {
                         responseMsg = new Message("Server", $"This user {message.ToName} not have");
-
                     }
-                            string js = responseMsg.ToJSON();
-                            byte[] responseData = Encoding.UTF8.GetBytes(js);
-                            await udpClient.SendAsync(responseData, ep);                        
 
+                    string js = responseMsg.ToJSON();
+                    byte[] responseData = Encoding.UTF8.GetBytes(js);
+                    await udpClient.SendAsync(responseData, ep);
+
+                    if (exitWord.Equals("Exit"))
+                    {                 
+                        _isExit = true;
+                    }
+                    else
+                        Console.WriteLine($"Now: {DateTime.Now.ToString("dd : MM : yyyy | HH : mm : ss")}" +
+                            $"\nFrom user: {message.FromName} " +
+                            $"\nSended message: {exitWord.ToString()} " +
+                            $"\nTo user: {message.ToName}");
                 }, token);
 
-                if (exitWord.Equals("Exit"))
+                if (_isExit)
                 {
                     Console.WriteLine("The last user left the chat.\nPress any key to turn off");
                     cancellationTokenSource.Cancel();
                     cancellationTokenSource.Dispose();
-
                     ch = Console.ReadKey();
                     if (ch.Key != null) Environment.Exit(0);
                 }
-                else
-                    Console.WriteLine(exitWord.ToString());
             }
         }
     }

@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6394CD01-2AA8-4C73-8B89-71B3E27971F2}|..\\Ptrn\\Ptrn.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\ptrn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6394CD01-2AA8-4C73-8B89-71B3E27971F2}|..\\Ptrn\\Ptrn.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\ptrn\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -10,9 +13,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{6394CD01-2AA8-4C73-8B89-71B3E27971F2}|..\\Ptrn\\Ptrn.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\ptrn\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6394CD01-2AA8-4C73-8B89-71B3E27971F2}|..\\Ptrn\\Ptrn.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\ptrn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,56 +22,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 277,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Ptrn\\Client.cs",
               "RelativeDocumentMoniker": "..\\Ptrn\\Client.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Ptrn\\Client.cs",
               "RelativeToolTip": "..\\Ptrn\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwAsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T13:37:16.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Ptrn\\Server.cs",
               "RelativeDocumentMoniker": "..\\Ptrn\\Server.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Ptrn\\Server.cs",
               "RelativeToolTip": "..\\Ptrn\\Server.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAIwDYAAABDAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCwAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:35:48.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T13:35:48.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Ptrn\\Message.cs",
               "RelativeDocumentMoniker": "..\\Ptrn\\Message.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Ptrn\\Message.cs",
               "RelativeToolTip": "..\\Ptrn\\Message.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T13:28:55.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T13:28:55.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Ptrn\\Program.cs",
               "RelativeDocumentMoniker": "..\\Ptrn\\Program.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\Ptrn\\Program.cs",
               "RelativeToolTip": "..\\Ptrn\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T12:59:55.606Z",
               "EditorCaption": ""

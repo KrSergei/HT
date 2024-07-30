@@ -1,0 +1,15 @@
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\bin\Debug\net8.0\Ptrn.exe
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\bin\Debug\net8.0\Ptrn.deps.json
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\bin\Debug\net8.0\Ptrn.runtimeconfig.json
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\bin\Debug\net8.0\Ptrn.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\bin\Debug\net8.0\Ptrn.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\Ptrn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\Ptrn.AssemblyInfoInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\Ptrn.AssemblyInfo.cs
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\Ptrn.csproj.CoreCompileInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\Ptrn.sourcelink.json
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\Ptrn.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\refint\Ptrn.dll
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\Ptrn.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\Ptrn.genruntimeconfig.cache
+C:\Users\MSi\source\repos\HomeTask4-1\Ptrn\obj\Debug\net8.0\ref\Ptrn.dll
