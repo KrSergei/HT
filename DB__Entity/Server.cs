@@ -9,10 +9,20 @@ namespace DB__Entity
 {
     internal class Server
     {
+        private readonly IMessageSource _messageSource;
+        private readonly IPEndPoint _endPoint;
+
+        public Server(MessageSource messageSource, IPEndPoint endPoint)
+        {
+            _messageSource = messageSource;
+            _endPoint = endPoint;
+        }
+
+
         public static async Task AcceptMsg()
         {
-
             Dictionary<string, IPEndPoint> users = new Dictionary<string, IPEndPoint>();
+
             IPEndPoint ep = new IPEndPoint(IPAddress.Any, 0);
             UdpClient udpClient = new UdpClient(16879);
             CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();

@@ -6,7 +6,7 @@ using DB__Entity.Abstraction;
 
 namespace DB__Entity
 {
-    internal class Client
+    public class Client
     {
         private readonly string _name;
         private readonly IMessageSource _messageSource;
@@ -65,7 +65,7 @@ namespace DB__Entity
             while (true)
             {
                MessageUDP message = _messageSource.ReceiveMessage(ref ep);
-                Console.WriteLine(message.ToString());
+               Console.WriteLine(message.ToString());
             }
         }
 
