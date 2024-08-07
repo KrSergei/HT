@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApp", "..\ChatApp\ChatA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads", "..\Threads\Threads\Threads.csproj", "{69D711DE-7AF5-44DC-AAB0-CD6DA0976C17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB__Entity", "..\DB__Entity\DB__Entity.csproj", "{CE1BAB5F-4E39-4C65-A3A3-F10021DCE162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB__Entity", "..\DB__Entity\DB__Entity.csproj", "{CE1BAB5F-4E39-4C65-A3A3-F10021DCE162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDB_EntityTests", "..\TestDB_EntityTests\TestDB_EntityTests.csproj", "{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CE1BAB5F-4E39-4C65-A3A3-F10021DCE162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE1BAB5F-4E39-4C65-A3A3-F10021DCE162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE1BAB5F-4E39-4C65-A3A3-F10021DCE162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

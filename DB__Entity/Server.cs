@@ -3,6 +3,7 @@ using System.Net;
 using System.Text;
 using DB__Entity.Models;
 using Microsoft.EntityFrameworkCore;
+using DB__Entity.Abstraction;
 
 namespace DB__Entity
 {
@@ -10,6 +11,7 @@ namespace DB__Entity
     {
         public static async Task AcceptMsg()
         {
+
             Dictionary<string, IPEndPoint> users = new Dictionary<string, IPEndPoint>();
             IPEndPoint ep = new IPEndPoint(IPAddress.Any, 0);
             UdpClient udpClient = new UdpClient(16879);
@@ -85,8 +87,7 @@ namespace DB__Entity
                         else return;
                     }
                     else if (message.ToName.ToLower().Equals("all"))
-                    {                       
-                        
+                    {   
                         foreach (var user in users)
                         {
                             message.ToName = user.Key;
