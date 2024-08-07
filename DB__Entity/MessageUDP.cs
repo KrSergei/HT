@@ -4,7 +4,7 @@ namespace DB__Entity
 {
     public enum Command
     {
-        Register,
+        Registred,
         Message,
         Confirmation
     }

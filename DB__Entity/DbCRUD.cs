@@ -1,5 +1,4 @@
 ﻿using DB__Entity.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace DB__Entity
 {
