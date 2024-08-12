@@ -44,7 +44,11 @@
               "RelativeDocumentMoniker": "..\\TestDB_EntityTests\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\TestDB_EntityTests\\UnitTest1.cs",
               "RelativeToolTip": "..\\TestDB_EntityTests\\UnitTest1.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAABsAAAAAAAAAAAAowDIAAABFAAAA",
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAlAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T20:50:17.239Z",
               "EditorCaption": ""
@@ -72,8 +76,7 @@
               "RelativeToolTip": "..\\DB__Entity\\Abstraction\\IMessageSource.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:20:35.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T19:20:35.173Z"
             },
             {
               "$type": "Document",
@@ -110,8 +113,7 @@
               "RelativeToolTip": "..\\DB__Entity\\Server.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAowEEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:05:40.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T14:05:40.211Z"
             },
             {
               "$type": "Document",
@@ -123,8 +125,12 @@
               "RelativeToolTip": "..\\DB__Entity\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-08-02T21:25:22.993Z",
               "EditorCaption": ""
+=======
+              "WhenOpened": "2024-08-02T21:25:22.993Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
@@ -136,8 +142,7 @@
               "RelativeToolTip": "..\\DB__Entity\\Client.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowDcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:15:30.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T19:15:30.162Z"
             }
           ]
         }
