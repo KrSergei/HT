@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads", "..\Threads\Threa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB__Entity", "..\DB__Entity\DB__Entity.csproj", "{CE1BAB5F-4E39-4C65-A3A3-F10021DCE162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDB_EntityTests", "..\TestDB_EntityTests\TestDB_EntityTests.csproj", "{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDB_EntityTests", "..\TestDB_EntityTests\TestDB_EntityTests.csproj", "{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAppLib", "..\ChatAppLib\ChatAppLib.csproj", "{91DDCCCD-FAF4-4445-AC68-2729B7FD978F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED54B30F-2417-4ECC-BC45-2DD4485ECA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DDCCCD-FAF4-4445-AC68-2729B7FD978F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DDCCCD-FAF4-4445-AC68-2729B7FD978F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DDCCCD-FAF4-4445-AC68-2729B7FD978F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DDCCCD-FAF4-4445-AC68-2729B7FD978F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestDB_EntityTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e294c50512bc8771d87b04b769754c3706abaeb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b75966b30c791ec5187199dd0dd33b749db83fb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestDB_EntityTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestDB_EntityTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
