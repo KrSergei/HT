@@ -19,7 +19,7 @@ class Programm
 
     private static void PrintResult(object sendler, EventArgs eventArgs)
     {
-        Console.WriteLine($"\nResult = {((Calculator)sendler).temp}");
+        Console.WriteLine($"\nResult = {((Calculator)sendler).resultValue}");
     }
 
     private static string ReadLineOrEsc(ICalculate calculate)
@@ -54,7 +54,7 @@ class Programm
             if(keyInfo.Key == ConsoleKey.Delete)
             {
                 ((Calculator)calculate).CancelLast();
-                string lastValue = ((Calculator)calculate).temp.ToString();
+                string lastValue = ((Calculator)calculate).resultValue.ToString();
                 index = lastValue.Length;
                 sb.Append(lastValue);
                 Console.Write(sb);
@@ -106,8 +106,21 @@ class Programm
             {    
                 int num = Convert.ToInt32(value);            
                 char action = ChoiceMathAction();
-                if(action.Equals(' ')) isExit = true;
-                else calculate.ChoiceAction(num, action);               
+                if (action.Equals(' ')) isExit = true;
+                else {
+                    try
+                    {
+                        calculate.ChoiceAction(num, action); 
+                    }
+                    catch (CalculatorDivideZeroException e)
+                    {
+                        Console.WriteLine(e);
+                    }
+                    catch (CalculateOperationCauseOverflowException e)
+                    {
+                        Console.WriteLine(e);
+                    }
+                }               
             }
         }        
         Environment.Exit(0);
