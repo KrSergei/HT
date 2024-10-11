@@ -4,11 +4,10 @@
     {
         event EventHandler<EventArgs> PrintResult;
 
-        void Sum(int value);
-        void Substract(int value);
-        void Multiply(int value);
-        void Divide(int value);
+        void Sum(double value);
+        void Substract(double value);
+        void Multiply(double value);
+        void Divide(double value);
         void CancelLast();
-        void ChoiceAction(int value, char mathAction);
     }
 }

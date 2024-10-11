@@ -5,91 +5,71 @@ namespace HTask5
     {
         public event EventHandler<EventArgs> PrintResult;
 
-        private Stack<int> _result = new Stack<int>();
+
+        private Stack<double> _result = new Stack<double>();
 
         private Stack<CalculatorActionLog> _stackAction = new Stack<CalculatorActionLog>();
 
-        public int resultValue = 0;
+        public double resultValue = 0;
 
-        public void ChoiceAction(int value, char whatDoing)
-        {
-
-            switch (whatDoing)
-            {
-                case '+':
-                    Sum(value);
-                    break;
-                case '-':
-                    Substract(value);
-                    break;
-                case '*':
-                    Multiply(value);
-                    break;
-                case '/':
-                    Divide(value);
-                    break;
-                default:
-                    break;
-            }
-        }
-
-        public void Divide(int value)
+        public void Divide(double value)
         {
             if (value == 0)
             {
                 _stackAction.Push(new CalculatorActionLog(CalcAction.Divide, value));
                 throw new CalculatorDivideZeroException("It cannot be divided by 0", _stackAction);
             }
-            AddValueToStack(resultValue);
-            resultValue = resultValue / value;
-            RaiseEvent();
-
+            else
+            {
+                AddValueToStack(resultValue);
+                resultValue = resultValue / value;
+                RaiseEvent();
+            }
         }
 
-        public void Multiply(int value)
-        {                       
-            long v = value * resultValue;
-            if(v >= int.MaxValue)
+        public void Multiply(double value)
+        {
+            
+            if (Double.IsPositiveInfinity(resultValue * value))
             {
                 _stackAction.Push(new CalculatorActionLog(CalcAction.Multiply, value));
                 throw new CalculateOperationCauseOverflowException("Over max value", _stackAction);
             }
-            AddValueToStack(resultValue);
-            resultValue = (int)v;
-            RaiseEvent();
-
+            else
+            {
+                AddValueToStack(resultValue);
+                resultValue = resultValue * value;
+                RaiseEvent();
+            }
         }
 
-        public void Substract(int value)
-        {            
-            long v = resultValue - value;
-            if (v <= int.MinValue)
+        public void Substract(double value)
+        {
+            
+            if (Double.IsNegativeInfinity(resultValue - value))
             {
                 _stackAction.Push(new CalculatorActionLog(CalcAction.Substract, value));
-                throw new CalculateOperationCauseOverflowException("Over max value", _stackAction);
+                throw new CalculateOperationCauseOverflowException("Over min value", _stackAction);
             }
-         
-            AddValueToStack(resultValue);
-            resultValue = (int)v;
-            RaiseEvent();
-
+            else
+            {
+                AddValueToStack(resultValue);
+                resultValue = resultValue - value;
+                RaiseEvent();
+            }
         }
 
-        public void Sum(int value)
-        {            
-            long v = resultValue + value;
-            Console.WriteLine(resultValue);
-            Console.WriteLine("long v : resultValue + value = " + v);
-            if (v >= int.MaxValue)  
+        public void Sum(double value)
+        {
+            if (Double.IsPositiveInfinity(resultValue + value))
             {
-                Console.WriteLine("Over int.MaxValue = " + v);
                 _stackAction.Push(new CalculatorActionLog(CalcAction.Sum, value));
                 throw new CalculateOperationCauseOverflowException("Over max value", _stackAction);
             }
             else
             {
                 AddValueToStack(resultValue);
-                resultValue = (int)v;
+                resultValue = resultValue + value;
                 RaiseEvent();
             }
         }
@@ -110,7 +90,7 @@ namespace HTask5
             }
         }
 
-        private void AddValueToStack(int value)
+        private void AddValueToStack(double value)
         {
             _result.Push(value);
         }

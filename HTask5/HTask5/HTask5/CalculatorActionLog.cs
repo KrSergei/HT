@@ -3,12 +3,13 @@
     internal class CalculatorActionLog()
     {
         public CalcAction CalcAction { get; private set; }
-        public int CalcArgument { get; private set; }
+        public double CalcArgument { get; private set; }
 
-        public CalculatorActionLog(CalcAction calcAction, int calcArgument) : this() 
+        public CalculatorActionLog(CalcAction calcAction, double calcArgumentD) : this()
         {
             CalcAction = calcAction;
-            CalcArgument = calcArgument;
+            CalcArgument = calcArgumentD;
         }
+
     }
 }

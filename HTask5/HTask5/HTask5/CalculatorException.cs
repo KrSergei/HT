@@ -15,7 +15,7 @@
 
         public override string ToString()
         {
-            return Message + " : " + string.Join("\n", ActionLogs.Select(x => $"{x.CalcAction} : {x.CalcArgument}"));
+            return Message + " : " + string.Join("\n", ActionLogs.Select(x => $"{x.CalcAction}  {x.CalcArgument}"));
         }
     }
 

@@ -1,27 +1,12 @@
 ﻿using HTask5;
+using System;
 using System.Text;
 class Programm
 {
-    #region
-    //private static int CalculateList(List<int> list, Func<int, int, int> func, Predicate<int> pr, Action<int> res) 
-    //{
-    //    int sum = 0;
-    //    foreach (var item in list) {
-    //        if (pr(item))
-    //        {
-    //            sum = func(item, sum);
-    //            res(sum);
-    //        }
-    //    }
-    //    return sum;
-    //}
-    #endregion
-
     private static void PrintResult(object sendler, EventArgs eventArgs)
     {
         Console.WriteLine($"\nResult = {((Calculator)sendler).resultValue}");
     }
-
     private static string ReadLineOrEsc(ICalculate calculate)
     {  
         ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
@@ -69,7 +54,6 @@ class Programm
         }
         return sb.ToString();
     }
-
     public static char ChoiceMathAction()
     {  
         ConsoleKeyInfo action = new ConsoleKeyInfo();
@@ -90,6 +74,21 @@ class Programm
         }
 
     }
+    private static void Execute(Action<double> action, double value = 10.0)
+    {
+        try
+        {
+            action?.Invoke(value);
+        }
+        catch (CalculatorDivideZeroException e)
+        {
+            Console.WriteLine(e);
+        }
+        catch (CalculateOperationCauseOverflowException e)
+        {
+            Console.WriteLine(e);
+        }
+    }
     static void Main(string[] args)
     {
         ICalculate calculate = new Calculator();
@@ -104,21 +103,27 @@ class Programm
             if (string.IsNullOrWhiteSpace(value)) isExit = true;
             else
             {    
-                int num = Convert.ToInt32(value);            
+                double num = Convert.ToDouble(value);            
                 char action = ChoiceMathAction();
                 if (action.Equals(' ')) isExit = true;
                 else {
-                    try
+
+                    switch (action)
                     {
-                        calculate.ChoiceAction(num, action); 
-                    }
-                    catch (CalculatorDivideZeroException e)
-                    {
-                        Console.WriteLine(e);
-                    }
-                    catch (CalculateOperationCauseOverflowException e)
-                    {
-                        Console.WriteLine(e);
+                        case '+':
+                            Execute(calculate.Sum, num);
+                            break;
+                        case '-':
+                            Execute(calculate.Substract, num);
+                            break;
+                        case '*':
+                            Execute(calculate.Multiply, num);
+                            break;
+                        case '/':
+                            Execute(calculate.Divide, num);
+                            break;
+                        default:
+                            break;
                     }
                 }               
             }
