@@ -10,6 +10,5 @@
             CalcAction = calcAction;
             CalcArgument = calcArgumentD;
         }
-
     }
 }

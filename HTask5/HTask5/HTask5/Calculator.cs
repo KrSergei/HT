@@ -1,10 +1,8 @@
-﻿
-namespace HTask5
+﻿namespace HTask5
 {
     internal class Calculator : ICalculate
     {
         public event EventHandler<EventArgs> PrintResult;
-
 
         private Stack<double> _result = new Stack<double>();
 
@@ -42,7 +40,6 @@ namespace HTask5
                 RaiseEvent();
             }
         }
-
         public void Substract(double value)
         {
             
@@ -73,7 +70,6 @@ namespace HTask5
                 RaiseEvent();
             }
         }
-
         private void RaiseEvent()
         {
             PrintResult?.Invoke(this, EventArgs.Empty);

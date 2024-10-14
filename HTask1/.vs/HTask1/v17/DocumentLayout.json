@@ -3,22 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\icalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\calculatoractionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\icalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\calculatorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\calculatoractionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\calcaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133F2CB9-F691-4C5D-89BC-C41898047240}|..\\HTask5\\HTask5\\HTask5\\HTask5.csproj|c:\\users\\msi\\source\\repos\\hometask4-1\\htask5\\htask5\\htask5\\calculatorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,24 +28,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 277,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CalculatorActionLog.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\CalculatorActionLog.cs",
               "RelativeDocumentMoniker": "..\\HTask5\\HTask5\\HTask5\\CalculatorActionLog.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\CalculatorActionLog.cs",
               "RelativeToolTip": "..\\HTask5\\HTask5\\HTask5\\CalculatorActionLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T21:47:08.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CalcAction.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\CalcAction.cs",
               "RelativeDocumentMoniker": "..\\HTask5\\HTask5\\HTask5\\CalcAction.cs",
@@ -53,34 +53,31 @@
               "RelativeToolTip": "..\\HTask5\\HTask5\\HTask5\\CalcAction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T19:11:41.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T19:11:41.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CalculatorException.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\CalculatorException.cs",
               "RelativeDocumentMoniker": "..\\HTask5\\HTask5\\HTask5\\CalculatorException.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\CalculatorException.cs",
               "RelativeToolTip": "..\\HTask5\\HTask5\\HTask5\\CalculatorException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:47:07.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T16:47:07.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\Program.cs",
               "RelativeDocumentMoniker": "..\\HTask5\\HTask5\\HTask5\\Program.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\Program.cs",
               "RelativeToolTip": "..\\HTask5\\HTask5\\HTask5\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T16:26:55.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T16:26:55.98Z"
             },
             {
               "$type": "Document",
@@ -90,20 +87,19 @@
               "RelativeDocumentMoniker": "..\\HTask5\\HTask5\\HTask5\\Calculator.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\Calculator.cs",
               "RelativeToolTip": "..\\HTask5\\HTask5\\HTask5\\Calculator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T16:48:37.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T16:48:37.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ICalculate.cs",
               "DocumentMoniker": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\ICalculate.cs",
               "RelativeDocumentMoniker": "..\\HTask5\\HTask5\\HTask5\\ICalculate.cs",
               "ToolTip": "C:\\Users\\MSi\\source\\repos\\HomeTask4-1\\HTask5\\HTask5\\HTask5\\ICalculate.cs",
               "RelativeToolTip": "..\\HTask5\\HTask5\\HTask5\\ICalculate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T16:28:55.728Z",
               "EditorCaption": ""
