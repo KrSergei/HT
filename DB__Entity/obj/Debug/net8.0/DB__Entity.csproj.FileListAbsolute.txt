@@ -58,7 +58,6 @@ C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\System.Memory.
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -138,4 +137,3 @@ C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\obj\Debug\net8.0\refint\DB__Ent
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\obj\Debug\net8.0\DB__Entity.pdb
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\obj\Debug\net8.0\DB__Entity.genruntimeconfig.cache
 C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\obj\Debug\net8.0\ref\DB__Entity.dll
-C:\Users\MSi\source\repos\HomeTask4-1\DB__Entity\bin\Debug\net8.0\System.Formats.Asn1.dll

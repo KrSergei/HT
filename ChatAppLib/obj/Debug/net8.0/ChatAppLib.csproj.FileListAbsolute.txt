@@ -1,0 +1,15 @@
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\bin\Debug\net8.0\ChatAppLib.exe
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\bin\Debug\net8.0\ChatAppLib.deps.json
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\bin\Debug\net8.0\ChatAppLib.runtimeconfig.json
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\bin\Debug\net8.0\ChatAppLib.dll
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\bin\Debug\net8.0\ChatAppLib.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ChatAppLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ChatAppLib.AssemblyInfoInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ChatAppLib.AssemblyInfo.cs
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ChatAppLib.csproj.CoreCompileInputs.cache
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ChatAppLib.sourcelink.json
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ChatAppLib.dll
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\refint\ChatAppLib.dll
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ChatAppLib.pdb
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ChatAppLib.genruntimeconfig.cache
+C:\Users\MSi\source\repos\HomeTask4-1\ChatAppLib\obj\Debug\net8.0\ref\ChatAppLib.dll
